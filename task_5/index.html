@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+ 
+<body>
+
+        <label for="numberInput">Номер страницы</label> <br> 
+        <input type="number" class="input" id="pageNum"> <br>
+
+        <label for="numberInput">Лимит</label> <br>
+        <input type="number" class="input" id="limit"> <br>
+        
+        <button class="button" onclick="makeRequest()" type="submit">Do Magic</button>
+        <div id="imageContainer"></div>
+
+</body>
+
+</html>
